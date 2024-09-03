@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Distro,Shop,Tshirt,Hoodie">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Dicky Pranata">
+    <title>Stranger Shop</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="website icon" type="png" href="content/logo s.png">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <div class="logo">STRANGER SHOP</div>
+        </a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="uniqlo.html">Uniqlo</a></li>
+                <li><a href="h&m.html">H&M</a></li>
+                <li><a href="checkout.html" class="active">Checkout</a></li>
+                <li><a href="https://www.instagram.com/dxckyp/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mainscreen">
+        <div class="card">
+            <div class="leftside">
+                <img src="content/uniqlo2.webp" class="product" alt="Hoodie" />
+            </div>
+            <div class="rightside">
+                <form action="">
+                    <h1>CheckOut</h1>
+                    <h2>Payment Information</h2>
+                    <p>Name</p>
+                    <input type="text" class="inputbox" name="name" required />
+                    <p>Card Number</p>
+                    <input type="number" class="inputbox" name="card_number" id="card_number" required />
+
+                    <p>Card Type</p>
+                    <select class="inputbox" name="card_type" id="card_type" required>
+                        <option value="">--Select a Card Type--</option>
+                        <option value="Bni">BNI</option>
+                        <option value="Dana">DANA</option>
+                        <option value="Gopay">GoPay</option>
+                    </select>
+                    <div class="expcvv">
+
+                        <p class="expcvv_text">Expiry</p>
+                        <input type="date" class="inputbox" name="exp_date" id="exp_date" required />
+
+                        <p class="expcvv_text2">Size</p>
+                        <input type="text" class="inputbox" name="size" id="size" required />
+                    </div>
+                    <p></p>
+                        <a href="checkout.html">
+                            <button class="button">CheckOut</button>
+                        </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: absolute;
+  background: rgb(196, 122, 122);
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+header .logo {
+  color: rgb(83, 83, 83);
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: rgb(83, 83, 83);
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  text-decoration: none;
+  display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #ffffff;
+  background-color: #aaaaaa;
+  transition: 0.3s;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainscreen {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  color: rgb(83, 83, 83);
+}
+
+.card {
+  width: 60rem;
+  margin: auto;
+  background: white;
+  position: center;
+  align-self: center;
+  top: 50rem;
+  border-radius: 1.5rem;
+  box-shadow: 4px 3px 20px #3535358c;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.leftside {
+  background: #030303;
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.product {
+  object-fit: cover;
+  width: 80em;
+  height: 39em;
+
+}
+
+.rightside {
+  background-color: #ffffff;
+  width: 35rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding: 1rem 2rem 3rem 3rem;
+}
+
+p {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: .8rem 0;
+}
+
+.inputbox {
+  color: #030303;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #615a5a;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.expcvv {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.6rem;
+}
+
+.expcvv_text {
+  padding-right: 1rem;
+}
+
+.expcvv_text2 {
+  padding: 0 1rem;
+}
+
+.button {
+  background: rgb(196, 122, 122);
+  padding: 15px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  width: 100%;
+  letter-spacing: .11rem;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.button:hover {
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 3px 3px 6px #38373785;
+}
